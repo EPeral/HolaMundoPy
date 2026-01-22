@@ -8,7 +8,7 @@ def home():
     """
     Ruta principal.
     """
-    texto = os.environ.get('MENSAJE', 'Hola Mundo (Default en Docker)')
+    texto = os.environ.get('MENSAJE', 'Hola Mundo, cruel... Ahora en Docker....')
     
     return jsonify({
         "status": "success",
